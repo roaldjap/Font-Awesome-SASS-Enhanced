@@ -24,8 +24,13 @@ Bootstrap-style usage), please use the official Sass stylesheet.
 Usage
 -----
 
-Include the font files in your project. You may get them here:
-https://github.com/fortawesome/Font-Awesome/tree/master/font
+You will need to import these files into your project:
+
+ * [The font files][fonts] (.eot + .svg + .ttf + .woff)
+ * [The SASS stylesheet][sheet] (.sass)
+
+[fonts]: https://github.com/rstacruz/Font-Awesome-SASS-Enhanced/tree/master/font
+[sheet]: https://github.com/rstacruz/Font-Awesome-SASS-Enhanced/blob/master/sass-enhanced/_font-awesome.scss
 
 Then in your Sass sheets, simply import `font-awesome` and use the `icon`
 mixin.
