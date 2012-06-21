@@ -1,7 +1,5 @@
-#Font Awesome 2.0 - Enhanced for SASS 3.2
-
 Font Awesome - Enhanced for SASS 3.2
-------------------------------------
+====================================
 
 This Sass version is based on Font Awesome 2.0's CSS (at 22aa51f2).
 
@@ -10,7 +8,8 @@ It provides the `icon` mixin, which, when used, ensures that your CSS CSS
 only has styles for the icons that you actually need, skipping the ones you
 don't.
 
-This version is available at @ https://github.com/rstacruz/Font-Awesome.
+This version is available at
+https://github.com/rstacruz/Font-Awesome-SASS-Enhanced.
 
 Limitations
 -----------
@@ -26,7 +25,7 @@ Usage
 -----
 
 Include the font files in your project. You may get them here:
-https://github.com/rstacruz/Font-Awesome/tree/master/font
+https://github.com/fortawesome/Font-Awesome/tree/master/font
 
 Then in your Sass sheets, simply import `font-awesome` and use the `icon`
 mixin.
